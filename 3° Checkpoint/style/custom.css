@@ -1,0 +1,165 @@
+body, html {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#header {
+    width: 100%;
+    background-color: transparent;
+    transition: background ease-out 0.2s;
+    position: fixed;
+    top:0;
+    left: 0;
+    
+}
+
+#header .navbar-collapse {
+    width: auto;
+  
+}
+
+#header .nav-link {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 15px;
+    margin-right: 15px; 
+    color: var(--secundary);
+    border-bottom: solid 4px transparent;
+}
+
+#header .nav-link:hover {
+    border-bottom: solid 4px var(--secundary); 
+    border-bottom: solid 4px var(--secundary);
+
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }  
+
+body{
+    background: url('http://2.bp.blogspot.com/-PUuLJjPb9c0/U32Has-LO3I/AAAAAAAAKdE/NBi8Yl4x48Q/s1600/X-Men-Dias-de-um-Futuro-Esquecido-04.jpg') no-repeat center;
+    background-size: cover;
+    font-family: 'Crimson Text', serif;
+    }
+
+.container {
+    text-align: center;
+    
+}
+.descricao {
+    margin-top: 200px
+}
+
+
+#video{
+    width: 1000px;
+    height: 600px;
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+main h1{
+    font-family: 'Lobster', cursive;
+    font-size: 100px;
+    color: tomato;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 50px;
+
+    }
+
+
+    
+p{
+    background-color: #e5e5e580;
+    padding: 0 15px;
+    font-family: 'Crimson Text', serif;
+    font-size: 30px;
+    line-height: 50px;
+    border-radius: 12px;
+    }
+    
+
+    
+h2{
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color: #1161DE;
+    text-align: center;
+    background-color: #e5e5e581;
+    padding-top: 20px;
+    border-radius: 12px;
+    font-family: sans-serif;
+}
+    
+
+li {
+    margin-bottom: 10px;
+    font-size: 25px;
+    list-style: none;      
+}
+   
+
+li:hover {
+    color:violet;
+
+}
+
+    #header button{
+        height: fit-content;
+        border: 1px solid black;
+        background-color: transparent;
+        padding: 10px 10px;
+        border-radius: 24px;
+    }
+    
+    .novoMutante{
+        text-align: center;
+        font-size: 25px;
+        color: white;
+    }
+
+    
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 80px;
+        padding: 30px;
+        background-color: transparent;
+        color: white;
+        font-size: 18px;
+      }
+      
+
+    @media (max-width: 767px){
+        .banner{
+            display: none;
+        }
+      
+        #catalogo{
+            margin-top: 100px;
+        }
+      
+        .main-header{
+            margin-top: -100px;
+        }
+      
+        .container{
+            text-align: center;
+        }
+      
+        footer{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            text-align: center;
+        }
+    }

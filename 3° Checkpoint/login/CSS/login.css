@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+* {
+
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+header {
+  text-align: center;
+  color:#59429d; 
+  font-size: 24px;
+  background-color: black;
+  padding: 20px; 
+  color: antiquewhite;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
+
+
+fieldset {
+  border: 0;
+}
+
+
+body {
+  background-color: silver;
+  font-size: 2em;
+  color: #3fb4b8; 
+  justify-content: center;
+  font-family: sans-serif;
+
+}
+
+
+.form-container .legend{
+  font-size: 32px;
+  color: #f8f8f8;
+  margin-top: 24px;
+  margin-bottom: 15px;
+  display: flex;
+}
+
+/* Estilização do forms */
+.form-container {
+  max-width: 1000px;
+  padding: 10px 50px 10px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 32px;
+  display: table;
+  margin-left: 10px;
+}
+
+.main-container {
+  display: flex;
+  width: 100%;
+  position: relative;
+  justify-content: center;
+  top: 50px;
+
+}
+
+
+/* Configuração dos inputs */
+.form-container input[type=text] {
+  width: 100%;
+  padding: 20px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  font-size: 20px;
+}
+
+
+
+.form-container .btn {
+  background-color: #a5b9b2;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:30px;
+  opacity: 0.8;
+  font-size: 30px;
+}
+
+
+
+button {
+
+  border-radius: 10px;
+  color: white;
+
+}
+
+
